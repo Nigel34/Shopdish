@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+
+    {% load static %}
+    <style>
+        h1{
+            text-align: center;
+            background-color: blanchedalmond;
+            color: white;
+            line-height: 80px;
+        }
+        h1:hover{
+            background-color: black;
+        }
+        img{
+            width: 200px;
+            height: 250px;
+
+        }
+    </style>
+</head>
+<body>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'home' %}">Home</a>
+<h1>Products offered at ShopDish</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, amet animi autem eius esse eveniet, exercitationem expedita hic id in minus placeat possimus quos sapiente sequi similique ut vitae voluptatibus!</span><span>Dicta ducimus, magnam necessitatibus nihil nobis quo quod! Accusamus atque blanditiis deleniti dolores doloribus eaque esse est excepturi exercitationem expedita fugiat fugit mollitia nam porro recusandae rerum sunt vitae, voluptatibus.</span></p>
+<img src="{% static 'Assets/img.png' %}" alt="">
+<img src="{% static 'Assets/img_1.png' %}" alt="">
+<img src="{% static 'Assets/img_2.png' %}" alt="">
+<img src="{% static 'Assets/img_3.png' %}" alt="">
+</body>
+</html>

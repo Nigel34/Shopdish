@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+
+}
+
+#main{
+    display: flex;
+
+}
+img{
+    width: 170px;
+    height: 220px;
+}
+.mydiv{
+    margin-right: 20px;
+}
+button{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px ;
+}
