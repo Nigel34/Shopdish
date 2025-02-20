@@ -9,3 +9,9 @@ def images(request):
 
 def about(request):
     return render(request, 'About.html')
+
+def form(request):
+    return render(request, 'Form.html')
+
+def product(request):
+    return render(request, 'product.html')

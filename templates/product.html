@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootsrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootsrap/js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'gallery' %}">Gallery</a>
+<h1 class="text-center text-warning">Product Details</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolores eius eum facere molestiae mollitia nisi porro quia similique ut. A ab ea eum explicabo omnis quae rem sunt unde.</span><span>A accusamus at autem, consequatur, corporis dolor dolore doloremque eveniet explicabo facere fugit illum maiores provident quia quod quos repellendus saepe sapiente sit vero. Aliquid atque distinctio necessitatibus sit voluptatum.</span><span>Accusamus amet animi assumenda atque cumque debitis doloribus enim esse explicabo facilis fugit, itaque minus modi molestias nostrum odio odit pariatur perspiciatis porro quam quidem quod recusandae reiciendis sit veritatis!</span></p>
+ <table class="table table-bordered ">
+     <tr >
+     <th>Product ID</th>
+     <th>Product Name</th>
+     <th>Product Quality</th>
+     <th>Product quantity</th>
+     </tr>
+     <tr class="table-info">
+         <td>1</td>
+         <td>Wheat</td>
+         <td>Good</td>
+         <td>200 Bags</td>
+     </tr>
+     <tr class="table-danger">
+         <td>2</td>
+         <td>Rice</td>
+         <td>Good</td>
+         <td>250 bags</td>
+     </tr>
+      <tr class="table-warning">
+         <td>3</td>
+         <td>Sugar</td>
+         <td>Good</td>
+         <td>200 Bags</td>
+     </tr>
+      <tr>
+         <td>3</td>
+         <td>Sugar</td>
+         <td>Good</td>
+         <td>200 Bags</td>
+     </tr>
+      <tr class="table-success">
+         <td>3</td>
+         <td>Sugar</td>
+         <td>Good</td>
+         <td>200 Bags</td>
+     </tr>
+
+
+ </table>
+</body>
+</html>
